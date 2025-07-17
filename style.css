@@ -110,7 +110,7 @@
 
         /* ヒーローセクション */
         #hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/top.png') no-repeat center center/cover; /* 仮の背景画像 */
+            background: url('img/top.png') no-repeat center center/cover; 
             color: #fff;
             text-align: center;
             padding: 150px 20px 100px; /* ヘッダーの高さ分を考慮 */
