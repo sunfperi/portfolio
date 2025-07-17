@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>田中裕二 - ポートフォリオ</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>ポートフォリオ</h1>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">自己紹介</a></li>
+                <li><a href="#portfolio">開発事例</a></li>
+                <li><a href="#skills">スキル</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>田中裕二 のポートフォリオ</h2>
+            <a href="#portfolio" class="button">開発事例を見る</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>自己紹介</h2>
+        <p>私は石川県の専門学校を卒業後、五大開発株式会社でWEBプログラマとして働いていました。
+        <br>主に自社で運営しているサービスの開発・運用・保守を担当しており、土木情報ポータルサイトの「いさぼうネット」、土木に特化した入札情報サービス「入札ウォッチネット」の運営に携わっておりました。
+        <br>フロントエンドはHTML、CSS、JavaScript（JQuery含む）、バックエンドはPHPを用いてWebシステムの開発に行っておりました。
+        <br>また、社会人としてIT以外の知見を深めるために、五大開発株式会社退社後は、公務員として約2年間事務作業に携わってまいりました。
+        <br>私のこれまでの社会人経験を活かして、より良いWebサイトやアプリケーションを開発したいと思っております。</p>
+    </section>
+<div style="page-break-after: always;"></div>
+    <section id="portfolio">
+        <h2>開発事例<br>（五大開発株式会社にて開発・運用・保守を担当）</h2>
+        <div class="project-grid">
+            <div class="project-item">
+                <img src="img/isabou.png" alt="いさぼうネット">
+                <div class="project-info">
+                    <h3>いさぼうネット</h3>
+                    <p>土木技術者のための土木情報ポータルサイトになります。主に情報の更新業務を担当しておりましたが、土木の資格試験の問題ページや土木計算ソフトをPHPで作成した経験もあります。
+                    <br>主な使用技術：PHP、Postgresql、Apache、Windows Server</p>
+                    <a href="https://isabou.net/" target="_blank">リンクはこちらから</a>
+                </div>
+            </div>
+            <div class="project-item">
+                <img src="img/nyusatsu.png" alt="入札ウォッチネット">
+                <div class="project-info">
+                    <h3>入札ウォッチネット</h3>
+                    <p>土木に特化した入札情報サービスになります。官公庁が公開している入札情報をWebスクレピングで自動収集してデータベースに保存して、一括検索できるようにしたサービスになります。
+                    <br>主な使用技術：PHP、Postgresql、Apache、Selenium（Webスクレイピング）、CentOS</p>
+                    <a href="https://nyusatsu.isabou.net/nyusatsu/" target="_blank">リンクはこちらから</a>
+                </div>
+            </div>
+    </section>
+<div style="page-break-after: always;"></div>
+    <section id="skills">
+        <h2>スキル</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS3</li>
+            <li>JavaScript (JQuery)</li>
+            <li>PHP</li>
+            <li>WEBスクレイピング</li>
+            <li>SQL (PostgreSQL/MySQL)</li>
+            <li>Apache</li>
+            <li>Linux（CentOS）</li>
+            <li>Git / GitHub</li>
+        </ul>
+    </section>
+
+
+
+    <footer>
+        <p>&copy; 2025 田中裕二. All rights reserved.</p>
+    </footer>
+</body>
+</html>
