@@ -110,7 +110,7 @@
 
         /* ヒーローセクション */
         #hero {
-            background: url('img/top.png') no-repeat center center/cover; 
+            background:  url('img/top.png') no-repeat center center/cover; /* 仮の背景画像 */
             color: #fff;
             text-align: center;
             padding: 150px 20px 100px; /* ヘッダーの高さ分を考慮 */
